@@ -1,4 +1,14 @@
-export default {
+module.exports = {
+  one(x = 1, genFn) {
+    let newArray = [];
+
+    for (let i = 0; i < x; i++) {
+      newArray.push(genFn ? genFn(i) : undefined);
+    }
+
+    return newArray;
+  },
+
   two(x = 1, y = 1, genFn) {
     let newArray = [];
 

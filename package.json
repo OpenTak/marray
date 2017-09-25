@@ -1,0 +1,39 @@
+{
+  "name": "marray",
+  "version": "1.1.0",
+  "description": "Multi-dimmensional array generator",
+  "main": "index.js",
+  "author": "baweaver <brandon_weaver@baweaver.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "source",
+    "distribution"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenTak/marray"
+  },
+  "keywords": [
+    "array",
+    "multi-dimmensional"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --recursive --reporter spec --timeout 3000 --compilers js:babel-core/register",
+    "test-watch": "NODE_ENV=test ./node_modules/.bin/mocha --recursive --watch --reporter spec --timeout 3000 --compilers js:babel-core/register",
+    "build": "babel source --out-dir distribution",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
+}

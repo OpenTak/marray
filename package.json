@@ -1,6 +1,6 @@
 {
   "name": "marray",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Multi-dimmensional array generator",
   "main": "./distribution/index.js",
   "author": "baweaver <brandon_weaver@baweaver.com>",
@@ -31,6 +31,7 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.23.0"
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.26.0"
   }
 }

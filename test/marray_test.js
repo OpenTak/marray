@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 
-import Marray from '../source/index';
+import Marray from '../source/marray';
 
 describe('Marray', () => {
   describe('#two', () => {

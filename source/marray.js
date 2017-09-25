@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   one(x = 1, genFn) {
     let newArray = [];
 

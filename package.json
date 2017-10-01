@@ -1,6 +1,6 @@
 {
   "name": "marray",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Multi-dimmensional array generator",
   "main": "./distribution/marray.js",
   "author": "baweaver <brandon_weaver@baweaver.com>",
@@ -24,7 +24,7 @@
     "multi-dimmensional"
   ],
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.6.0",
